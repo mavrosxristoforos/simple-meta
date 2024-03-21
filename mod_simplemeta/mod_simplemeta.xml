@@ -13,6 +13,9 @@
         <filename module="mod_simplemeta">mod_simplemeta.php</filename>
         <folder>tmpl</folder>
     </files>
+   <updateservers>
+      <server type="extension" priority="1" name="Simple Meta Updates">https://mavrosxristoforos.com/index.php?option=com_extensionupdater&amp;extension=simple_meta</server>
+   </updateservers>
     <languages folder="language">
         <language tag="en-GB">en-GB/en-GB.mod_simplemeta.ini</language>
     </languages>

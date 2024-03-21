@@ -2,4 +2,3 @@ INCVERSION:mod_simplemeta/mod_simplemeta.xml
 DELETE:mod_simplemeta.zip
 ZIPDIR:mod_simplemeta
 DELETE:../../templates/kiss/mod_simplemeta.zip
-COPY:mod_simplemeta.zip ../../templates/kiss/mod_simplemeta.zip
