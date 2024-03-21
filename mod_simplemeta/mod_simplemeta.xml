@@ -7,7 +7,7 @@
     <license>GNU General Public License</license>
     <authorEmail>mavrosxristoforos@gmail.com</authorEmail>
     <authorUrl>http://www.mavrosxristoforos.com/</authorUrl>
-<version>1.0.1</version>
+<version>1.0.2</version>
     <description>Simple Meta - A simple module to include meta data in any page.</description>
     <files>
         <filename module="mod_simplemeta">mod_simplemeta.php</filename>
