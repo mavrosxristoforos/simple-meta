@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" client="site" type="module" method="upgrade">
+    <name>Simple Meta</name>
+    <author>Christopher Mavros</author>
+    <creationDate>March 2024</creationDate>
+    <copyright>Copyright (C) 2024 Christopher Mavros. All rights reserved.</copyright>
+    <license>GNU General Public License</license>
+    <authorEmail>mavrosxristoforos@gmail.com</authorEmail>
+    <authorUrl>http://www.mavrosxristoforos.com/</authorUrl>
+<version>1.0.1</version>
+    <description>Simple Meta - A simple module to include meta data in any page.</description>
+    <files>
+        <filename module="mod_simplemeta">mod_simplemeta.php</filename>
+        <folder>tmpl</folder>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.mod_simplemeta.ini</language>
+    </languages>
+    <config><fields name="params">
+      <fieldset name="basic">
+        <field name="meta_tags" type="textarea" filter="raw" label="MOD_SIMPLEMETA_META_TAGS_LBL" description="MOD_SIMPLEMETA_METAD_TAGS_DESC"/>
+      </fieldset>
+    </fields></config>     
+</extension>
